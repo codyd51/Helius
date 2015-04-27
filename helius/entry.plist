@@ -1,0 +1,10 @@
+{
+    entry = {
+	bundle = Helius;
+	cell = PSLinkCell;
+	detail = HeliusListController;
+	icon = Helius.png;
+	isController = 1;
+	label = Helius;
+    };
+}

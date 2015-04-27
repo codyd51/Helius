@@ -1,0 +1,31 @@
+{
+	"folders": [
+		{
+			"path": "./",
+			"folder_exclude_patterns": [".theos", "_", "Build", "Packages", "theos", "obj"]
+		}
+	],
+	"build_systems": [
+		{
+			"name": "Theos Project",
+			"cmd": ["./build.sh"],
+			"env":
+			{
+				"PATH": "$PATH:/opt/theos/bin",
+				"THEOS_DEVICE_IP": "iphone"
+			},
+			"working_dir": "${project_path}",
+			"file_regex": "^(.*):([0-9]+):([0-9]+): error:(.*)$",
+			"variants": [
+				{
+					"cmd": ["./build.sh", "package", "install"],
+					"name": "Run"
+				},
+				{
+					"cmd": ["./release.sh", "clean"],
+					"name": "Clean"
+				}
+			]
+		}
+	]
+}

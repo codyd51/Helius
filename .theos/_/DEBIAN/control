@@ -1,10 +1,11 @@
 Package: com.phillipt.helius
 Name: Helius
 Depends: mobilesubstrate
-Version: 0.0.1
 Architecture: iphoneos-arm
 Description: A new kind of lock screen media controls
 Icon: Helius.png
 Maintainer: Phillip Tennen
 Author: Phillip Tennen
 Section: Tweaks
+Version: 0.0.1-729
+Installed-Size: 484

@@ -1,8 +1,5 @@
 @interface BlurImage : NSObject
 + (UIImage*)imageWithColor:(UIColor*)color andSize:(CGRect)rect;
--(void)touchedPlayButton;
--(void)touchedBackButton;
--(void)touchedNextButton;
 @end
 @interface UIImage (CustomAlpha)
 - (UIImage *)imageByApplyingAlpha:(CGFloat) alpha;

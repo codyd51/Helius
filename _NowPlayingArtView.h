@@ -5,13 +5,13 @@
  * weak_classdump is Freeware by Elias Limneos.
  *
  */
-
+#import <UIKit/UIView.h>
 
 @interface _NowPlayingArtView : UIView {
-	UIView* _artworkView; 
+	UIView* _ArtworkView; 
 	int _orientation; 
 }
-@property (nonatomic,retain) UIView* artworkView; 				//@synthesize artworkView=_artworkView - In the implementation block
+@property (nonatomic,retain) UIView* ArtworkView; 				//@synthesize artworkView=_artworkView - In the implementation block
 @property (assign,nonatomic) int orientation; 				//@synthesize orientation=_orientation - In the implementation block
 -(void)layoutSubviews;
 -(void)setOrientation:(int)arg1;

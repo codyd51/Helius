@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Helius</string>
+			<key>footerText</key>
+			<string>It is recommended, but not necessary, to respring in order for all changes to properly apply</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.phillipt.helius</string>
+			<key>PostNotification</key>
+			<string>com.phillipt.helius/preferencechanged</string>
+			<key>key</key>
+			<string>enabled</string>
+			<key>label</key>
+			<string>Enabled</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Credit to Adam Bell for this code</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.phillipt.helius</string>
+			<key>PostNotification</key>
+			<string>com.phillipt.helius/preferencechanged</string>
+			<key>key</key>
+			<string>blurBack</string>
+			<key>label</key>
+			<string>Blur Lockscreen Background</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Turn this on if you have a 5S, if you don't it is not needed.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.phillipt.helius</string>
+			<key>PostNotification</key>
+			<string>com.phillipt.helius/preferencechanged</string>
+			<key>key</key>
+			<string>upwardsCompatible</string>
+			<key>label</key>
+			<string>5S Compatibility</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Use a crossfade animation when changing songs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.phillipt.helius</string>
+			<key>PostNotification</key>
+			<string>com.phillipt.helius/preferencechanged</string>
+			<key>key</key>
+			<string>crossfade</string>
+			<key>label</key>
+			<string>Use Crossfade</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Length of the crossfade animation, in seconds</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>defaults</key>
+			<string>com.phillipt.helius</string>
+			<key>PostNotification</key>
+			<string>com.phillipt.helius/preferencechanged</string>
+			<key>isNumeric</key>
+			<true/>
+			<key>placeholder</key>
+			<string>1</string>
+			<key>bestGuess</key>
+			<string>1</string>
+			<key>key</key>
+			<string>crossfadeDuration</string>
+			<key>label</key>
+			<string>Crossfade</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Connect</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Follow the developer</string>
+			<key>icon</key>
+			<string>Twitter.png</string>
+			<key>action</key>
+			<string>openTwitter</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>If you're having a problem with Helius, please follow these steps: 1) make sure you have syslogd installed from Cydia. 2) go to /var/log/syslog and delete the file that's there, I don't need the whole thing. 3) turn on this switch and recreate the issue. 4) send me your syslog in an email attachment.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.phillipt.helius</string>
+			<key>PostNotification</key>
+			<string>com.phillipt.helius/preferencechanged</string>
+			<key>key</key>
+			<string>debug</string>
+			<key>label</key>
+			<string>Debug Logging</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerAlignment</key>
+			<integer>1</integer>
+			<key>footerText</key>
+			<string>Special thanks to jaysan1292, for everything.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerAlignment</key>
+			<integer>1</integer>
+			<key>footerText</key>
+			<string>Designed by Evan Luther</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerAlignment</key>
+			<integer>1</integer>
+			<key>footerText</key>
+			<string>Helius © 2014 Phillip Tennen</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Helius</string>
+</dict>
+</plist>
